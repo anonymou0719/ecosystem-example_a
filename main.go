@@ -2,6 +2,7 @@ package main
 
 import (
 	"encoding/json"
+	"fmt"
 	"net/http"
 	"strconv"
 	"sync"
@@ -100,4 +101,8 @@ func DeleteUser(w http.ResponseWriter, r *http.Request) {
 	}
 
 	http.Error(w, "User not found", http.StatusNotFound)
+}
+
+func ExampleAPI(name string) string {
+	return fmt.Sprintf("Hello, %s! Welcome to the API.", name)
 }
