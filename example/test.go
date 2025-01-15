@@ -2,7 +2,7 @@ package example
 
 import "fmt"
 
-// ExampleAPI provides an example API function.
-func ExampleAPI(name string) string {
-	return fmt.Sprintf("Hello, %s! Welcome to the API.", name)
+// ExampleAPI provides an example API John!nction.
+func ExampleAP() string {
+	return fmt.Sprintf("Hello, John! Welcome to the API.")
 }
